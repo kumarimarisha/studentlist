@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #4CAF50;
+}
+
+/* Authentication Page */
+.auth-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-container button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #45a049;
+}
+
+.auth-container p {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+.auth-container p:hover {
+  color: #45a049;
+}
+
+/* Dashboard */
+.dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Student List */
+.student-list {
+  margin-top: 20px;
+}
+
+.student-list input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.student-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-list li {
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Student Form */
+.student-form {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-form h2 {
+  margin-bottom: 20px;
+}
+
+.student-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.student-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.student-form button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 0 10px;
+  }
+
+  .auth-container {
+    width: 90%;
+  }
+
+  .student-list ul {
+    padding: 0;
+  }
+
+  .student-list input {
+    width: 100%;
+  }
+}
